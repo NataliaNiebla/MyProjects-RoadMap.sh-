@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Typewcow"; /* Nombre que usarás en el CSS */
+    src: url("fuentes/typewcond.otf") format("opentype"); /* Ruta a la fuente */
+}
+
+/* General */
+body {
+    margin: 0; /* Sin márgenes */
+    text-align: left;
+    line-height: 1.1em; /* Espaciado entre líneas */
+    padding: 30px 60px 60px 60px; /* Relleno */
+    background-color: #ffffff; /* Fondo claro */
+    font-family: "Typewcow", Arial, sans-serif; /* Usa "Typewcow" como principal */
+}
+
+header h1 {
+    margin: 30px 0px 0px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+header h2 {
+    margin: 30px 0px 15px;
+    font-size: 1.4em;   
+}
+
+h2 {
+    margin: 0px 0px 15px;
+    font-size: 1.2em;
+    color: #44853c; 
+}
+
+h3 {
+    color: #3f65ac;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+p {
+    margin: 6px 0px 0px 0px;
+}
+
+
+/* Sections */
+section { 
+    margin-top: 25px;
+    font-size: 1.2em;
+}
+
+/* Lists */
+ul {
+    padding: 10;
+}
+
+ul li {
+    margin: 0;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #3498db; /* Azul para enlaces */
+}
+
+a:hover {
+    color: #2c3e50; /* Oscuro al pasar el ratón */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Responsive Design *
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1em;
+    }
+
+    header h2 {
+        font-size: 1em;
+    }
+
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+}
